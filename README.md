@@ -62,14 +62,14 @@ If you're having issues with the deployment, you can use an _alternative_ method
 You will need to make sure you'll have the following elements installed:
 
 - [.NET 6.0](https://dotnet.microsoft.com/download/dotnet)
-- [Visual Studio build tools](https://visualstudio.microsoft.com/en/thank-you-downloading-visual-studio/?sku=BuildTools&rel=16) on Windows, `mono-complete` on [Linux/macOS](https://www.mono-project.com/docs/getting-started/install/)
+- [Visual Studio build tools](https://visualstudio.microsoft.com/en/thank-you-downloading-visual-studio/?sku=BuildTools&rel=16) on Windows OR `mono-complete` on [Linux/macOS](https://www.mono-project.com/docs/getting-started/install/)
 
-> **Note:** Do not use the `mono-complete` package provided by your Linux distribution  
-> as it may not include `msbuild` which is required for this extension to work.  
+> **Note:** The default `mono-complete` package provided by your Linux distribution  
+> may not work as it might not include `msbuild` which is required for this extension.  
 >   
-> Instead install the `mono-complete` package provided by the Mono Project.  
-> The [preview](https://www.mono-project.com/download/preview/) version is recommended
-> as the [stable](https://www.mono-project.com/download/stable/) version is outdated.
+> Currently (May 2022) It is recomended that you add the 
+> [preview](https://www.mono-project.com/download/preview/)  `mono-complete` package 
+> provided directly by the Mono Project as the [stable](https://www.mono-project.com/download/stable/) version is (currently) outdated.
 
 ## Known Issues
 
